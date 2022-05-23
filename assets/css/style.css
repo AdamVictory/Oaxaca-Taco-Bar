@@ -23,7 +23,7 @@ h1 {
     letter-spacing: 0.2rem;
     text-align: center;
     margin-bottom: 2rem;
-    color:aquamarine;
+    color:black;
 }
 
 p { 
@@ -105,6 +105,64 @@ nav a {
     width: 100%;
     background: url('../images/hero-image.png') no-repeat center center;
 }
+
+
+/* Call To Action panels section */
+
+#call-to-action-panels-holder { 
+    margin: 0 4rem 8rem 4 rem;
+    overflow:hidden
+}
+
+#call-to-action-panels-holder>div { 
+    width: 31%;
+    margin: 1%;
+    float: left;
+    box-shadow: 0 4px 8px 0 black;
+}
+
+.top-image img {
+    width: 100%;
+    /* height: fit-content;*/
+}
+
+.link-panel a { 
+    background-color: black;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.link-panel {
+    background-color: blue
+}
+
+/* About page styles */ 
+#about,
+#menu,
+#contact { 
+    margin: 4rem
+}
+
+#page-banner-image {
+    margin: 0 4rem 0 4rem;
+    /* height: 200px; */
+    border-bottom: 2px solid black;
+}
+
+#page-banner-image>img {
+    width: 100%;
+}
+
+
+
+
 
 
 
