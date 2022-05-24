@@ -4,23 +4,33 @@
     margin: 0;
     padding: 0;
     border: none;
-    box-sizing: border-box
 }
-
+We 
 html {
     scroll-behavior: smooth;
 }
 
 body {
     font-family: Koulen;
-    font-weight: 300;
+    font-size: 2rem ;
+    font-weight: 400;
     color: white;
     background-color: orange;
 }
 
 h1 { 
-    font-size: 2.2rem;
+    font-size: 2.5rem;
+    text-transform: uppercase;
     letter-spacing: 0.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color:black;
+}
+
+h2 { 
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
     text-align: center;
     margin-bottom: 2rem;
     color:black;
@@ -35,28 +45,24 @@ p {
 }
 
 hr { 
-    border-top: 3px dotted aquamarine; 
+    border-top: 3px dotted white; 
     width: 100%;
     margin: 3 rem 0 3rem 0;
 }
 
+/* Header Section */
+
 header { 
-    background-image: ;
     background-color: black;
     padding: 2rem;
-    border-bottom: 10px solid aquamarine;
-    height: 150px;
+    border-bottom: 5px solid white;
+    height: 120px;
 }
 
-.logoholder { 
-
-margin-left: 2rem;
-float: left;
-}
 
 .logo { 
-width: 70px;
-height: 70px;
+width: 90px;
+height: 90px;
 float: left;
 }
 
@@ -65,9 +71,9 @@ float: left;
 }
 
 #menu-holder { 
-    float: right;
-    margin-right: 2rem;
-    line-height: 60px;
+    float:right;
+    margin-right: 2rem
+    line-height: 50px;
 }
 
 nav li { 
@@ -78,8 +84,8 @@ nav li {
 }
 
 nav li:hover { 
-    background-color: black;
-    border-bottom: 5px solid orange;
+    background-color: orange;
+    border-bottom: 7px solid orange;
 }
 
 nav a { 
@@ -88,7 +94,7 @@ nav a {
 }
 
 .active { 
-    border-bottom: 5px solid orange;
+    border-bottom: 7px solid orange;
 }
 
 /* Hero image section */
@@ -101,24 +107,57 @@ nav a {
 }
 
 #hero-image { 
-    height: 600px;
+    height: 500px;
     width: 100%;
-    background: url('../images/hero-image.png') no-repeat center center;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+
+    /* animates zoom effect on loading page */
+    animation-name: hero-image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
+/* creates the level of zoom for the hero image */
+@keyframes hero-image-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to { 
+        transform: scale(1.1);
+    }
+}
+
+
+#intro-text { 
+    margin: 4rem;
+}
+
+#intro-text p { 
+    line-height: 1.8rem ;
+    text-align: center;
+}
+
+#intro-text a { 
+    color: lime;
+}
+
+#intro-text a:hover { 
+    color: magenta;
+}
 
 /* Call To Action panels section */
 
 #call-to-action-panels-holder { 
-    margin: 0 4rem 8rem 4 rem;
-    overflow:hidden
+    margin: 0 4rem 8rem 4rem;
+    overflow: hidden;
 }
 
 #call-to-action-panels-holder>div { 
     width: 31%;
     margin: 1%;
     float: left;
-    box-shadow: 0 4px 8px 0 black;
+    box-shadow: 0 4px 4px 0 black;
 }
 
 .top-image img {
@@ -139,29 +178,74 @@ nav a {
     width: 100%;
 }
 
-.link-panel {
-    background-color: blue
+.link-panel a:hover {
+    background-color: magenta
 }
 
-/* About page styles */ 
-#about,
+/* About us page styles */ 
+#about-us,
 #menu,
 #contact { 
     margin: 4rem
 }
 
-#page-banner-image {
+.about-us-row {
+    overflow: hidden;
+}
+
+.para-1 {
+    padding: 0 2rem 1rem 0;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+.para-2 {
+    padding: 0 0 0 2rem;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+.about-us-box img {
+    border: 5px solid black;
+}
+
+#about-us-caption, 
+#menu-caption {
+    padding: 3rem;
+    text-align: center;
+    font-size: larger;
+    font-style: italic;
+}
+
+#about-us-panel-holder {
     margin: 0 4rem 0 4rem;
-    /* height: 200px; */
-    border-bottom: 2px solid black;
+    overflow: hidden;
 }
 
-#page-banner-image>img {
-    width: 100%;
+.about-us-box {
+    float: left;
+    width: 50%;
 }
 
 
+/* Footer section */
+footer {
+    height: 150px;
+}
 
+.socials { 
+    text-align: right;
+}
+
+.socials > li {
+    display: inline;
+}
+
+.socials i { 
+    font-size: 300%;
+    padding: 1%;
+    color: black;
+}
 
 
 
