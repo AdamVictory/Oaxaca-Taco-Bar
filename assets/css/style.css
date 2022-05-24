@@ -12,7 +12,7 @@ html {
 
 body {
     font-family: Koulen;
-    font-size: 2rem ;
+    font-size: 1rem ;
     font-weight: 400;
     color: white;
     background-color: orange;
@@ -20,17 +20,7 @@ body {
 
 h1 { 
     font-size: 2.5rem;
-    text-transform: uppercase;
     letter-spacing: 0.2rem;
-    text-align: center;
-    margin-bottom: 2rem;
-    color:black;
-}
-
-h2 { 
-    font-size: 1.6rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
     text-align: center;
     margin-bottom: 2rem;
     color:black;
@@ -182,6 +172,61 @@ nav a {
     background-color: magenta
 }
 
+/* best tacos */
+
+#best-tacos{
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float:left;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float:right;
+}
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+}
+
+hr {
+    border-top: 1px solid black ;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear:both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear:both;
+    margin-bottom: 50px;
+}
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align:right;
+}
+
+
+
+
 /* About us page styles */ 
 #about-us,
 #menu,
@@ -193,38 +238,15 @@ nav a {
     overflow: hidden;
 }
 
-.para-1 {
-    padding: 0 2rem 1rem 0;
-    line-height: 1.5rem;
-    text-align: justify;
-}
 
-.para-2 {
-    padding: 0 0 0 2rem;
-    line-height: 1.5rem;
-    text-align: justify;
-}
-
-.about-us-box img {
-    border: 5px solid black;
-}
-
-#about-us-caption, 
-#menu-caption {
-    padding: 3rem;
-    text-align: center;
-    font-size: larger;
-    font-style: italic;
-}
-
-#about-us-panel-holder {
+#page-banner-image {
     margin: 0 4rem 0 4rem;
-    overflow: hidden;
+    /* height: 200px; */
+    border-bottom: 2px solid black;
 }
 
-.about-us-box {
-    float: left;
-    width: 50%;
+#page-banner-image>img {
+    width: 100%;
 }
 
 
