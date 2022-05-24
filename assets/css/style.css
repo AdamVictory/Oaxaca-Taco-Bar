@@ -5,9 +5,9 @@
     padding: 0;
     border: none;
 }
-We 
+
 html {
-    scroll-behavior: smooth;
+    scroll-behavior:smooth
 }
 
 body {
@@ -62,7 +62,7 @@ float: left;
 
 #menu-holder { 
     float:right;
-    margin-right: 2rem
+    margin-right: 2rem;
     line-height: 50px;
 }
 
@@ -129,11 +129,11 @@ nav a {
 }
 
 #intro-text a { 
-    color: lime;
+    color:white;
 }
 
 #intro-text a:hover { 
-    color: magenta;
+    color: black;
 }
 
 /* Call To Action panels section */
@@ -224,6 +224,25 @@ hr {
     text-align:right;
 }
 
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+
+#circle-cover-bg {
+    background: url('../images/300pixellogo.png') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+
+
+}
 
 
 
