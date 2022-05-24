@@ -268,6 +268,45 @@ hr {
     width: 100%;
 }
 
+/* Contact section */
+#contact-details {
+    padding-bottom: 4rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+#contact-form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+input[type=text], 
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 2 px solid white;
+    margin-bottom: 1rem;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 1rem 1.4rem;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: teal;
+}
+
+
+
+
+
+
 
 /* Footer section */
 footer {
@@ -275,7 +314,7 @@ footer {
 }
 
 .socials { 
-    text-align: right;
+    text-align: center;
 }
 
 .socials > li {
