@@ -1,6 +1,6 @@
 # Oaxaca Taco Bar - Project 1 
 
-<img src="https://github.com/AdamVictory/Oaxaca-Taco-Bar/blob/main/wireframescreenshots/wireframe.png">
+<img src=">
 
 This is the website of Oaxaca Taco Bar, a new mexican restaurant that has just opened up in the heart of Rathmines. The website 
 will serve as an online means for new and returning customers to gain key information about the new restaurant. 
@@ -73,7 +73,7 @@ serves as a reminder for returning customers, who can view if the menu has been 
 ## Wireframes
 The following image shows a wireframe of each of the 4 pages on this website. These wireframes were created using [Balsamiq Wireframes](https://balsamiq.com/).
 
-<img src="
+<img src="https://github.com/AdamVictory/Oaxaca-Taco-Bar/blob/main/wireframescreenshots/wireframe.png">
 
 <hr>
 
@@ -82,68 +82,70 @@ The following image shows a wireframe of each of the 4 pages on this website. Th
 
 ### Common Elements
 The common elements across all four pages of the website are the Header and Footer sections. 
-+ The Header - This section appears at the top of all pages and contacts a gif logo which sits on the left, and a navigation 
-menu which is on the right. The logo and menu will adjust on different sized screens. It is clear to the user which page they are on due to the underline in the navigation menu. 
-<img src="">
++ The Header - This section appears at the top of all pages and consists of a gif logo which sits on the left, and a navigation 
+menu which is on the right. The logo and menu will adjust on different sized screens. It is clear to the user which page they are on due to the underline in the navigation menu. Featured on all four pages, the full responsive navigation bar includes links to the Logo, Home, About, Menu and Contact pages. It is identical on each page to allow for easy navigation. This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. It includes a gif logo which makes the website modern. 
+<img src="https://github.com/AdamVictory/Oaxaca-Taco-Bar/blob/main/wireframescreenshots/navigation-bar.png">
 
 + The Footer - This section appears on the very bottom of all pages. It contains four social media icons which can take the user to the necessary social platform. It also contains copyright information. 
-<img src="">
+<img src="https://github.com/AdamVictory/Oaxaca-Taco-Bar/blob/main/wireframescreenshots/footer.png">
 
 
-### Existing Features
+### Home Page
+This is will be the first page a user sees when they open the website. It is also the page that the user will be taken to if they click on the gif logo. The home pages consits of the following: 
++ Hero Image - This image covers the whole width of the page and has an animaiton effect so it's the first thing the user sees. It 
+consists of the restuarants name and also some abstract designs to give it a modern look. 
+<img src="https://github.com/AdamVictory/Oaxaca-Taco-Bar/blob/main/wireframescreenshots/banner-image.png">
 
-* #### Navigation Bar
++ Welcome Text - This section is underneath the hero image. It was added to make the user feel welcome to the website. It also contains some text on how to use the website effectively through the use of shortcut links. 
+<img src="https://github.com/AdamVictory/Oaxaca-Taco-Bar/blob/main/wireframescreenshots/welcome.png">
 
-  * Featured on all four pages, the full responsive navigation bar includes links to the Logo, Home, About, Menu and Contact pages. It is identical in each page to allow for easy navigation.
-  * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
-  * It includes a gif logo which makes the website modern. 
++ Video - This section contains a high quality video of Tacos being prepared by a chef. It gives the user an idea of how the tacos look and are prepared. 
+<img src="https://github.com/AdamVictory/Oaxaca-Taco-Bar/blob/main/wireframescreenshots/video.png">
 
-![Navigation Bar](https:)
++ Why Our Tacos - This section allows the user to see the benefits of the restaurant and why they should eat there. 
+<img src="https://github.com/AdamVictory/Oaxaca-Taco-Bar/blob/main/wireframescreenshots/why-our-tacos.png">
 
-* #### Landing Page Image
++ Call-to-action Boxes - This is the fifth and final section of the home page. It consists of three boxes and links to add another method of accessing the different pages of the website. 
+<img src="https://github.com/AdamVictory/Oaxaca-Taco-Bar/blob/main/wireframescreenshots/call-to-action.png">
 
-  - The landing includes a high quality banner image of the restaurants branding design. It also animates so it catches the users attention instantly.  branphotograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
-  + Banner Image - This only appears on the home page to add more brand identity to the website. 
-<img src="">
+### About Page
+This is the second page of the websites and is used to tell the Owners story and give a brief history of their restuarant. 
+I used one high quality image of the owners to show how they are a family business. This makes the user feel that they are genuine and gives them more confidence eating there. I also included a quote from Lovin Dublin to add even more confidence. 
+<img src="https://github.com/AdamVictory/Oaxaca-Taco-Bar/blob/main/wireframescreenshots/about-us.png">
 
-![Landing Page](https:)
 
-- __Club Ethos Section__
+### Menu Page
+This page is used to list all of the food items available on their menu and their prices. I wanted to keep this simple so the focus would be on the food and it is very easy to read while scrolling down. The sections in the page are small plates, tacos, vegan tacos, cocktails, red wine, white wine and beer. I didn't want to overstyle this as I think it's easier to read the way it is. 
+<img src="https://github.com/AdamVictory/Oaxaca-Taco-Bar/blob/main/wireframescreenshots/menu.png">
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+### Contact Page
+This page effectively shows all the different methods the user can get in touch with the restuarant.There are three different sections to the contact page. 
++ General Information -  It also has a contact form and google maps embeded. 
+<img src="https://github.com/AdamVictory/Oaxaca-Taco-Bar/blob/main/wireframescreenshots/contact-us.png">
++ Contact Form - Allows the user to submit their details and questions.
+<img src="https://github.com/AdamVictory/Oaxaca-Taco-Bar/blob/main/wireframescreenshots/contact-form.png">
++ Visit Us - Allows the user to see where exactly the restaurant is located.
+<img src="https://github.com/AdamVictory/Oaxaca-Taco-Bar/blob/main/wireframescreenshots/map.png">
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+<hr>
 
-- __Meetup Times section__
+# Technologies Used 
+This is a list of all the technologies used to create this project
++ HTML5 - Used to give the overvall structure and semantic value. 
++ CSS3 - Used to apply style throughout the website 
++ Google Fonts - Font is embedded into thwe website through a link in the css file. 
++ Font Awesome - Used for icons beside headings and social links. 
++ Git, Github & Gitpod - Used to develop and store my code. 
++ Balsamiq Wireframes - Software to create mockups and prototype designs. 
++ Canva - Free design tool used to create my gif logo and hero banner image. 
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+<hr>
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
-- __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-- __Gallery__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
@@ -203,21 +205,3 @@ You can break the credits section up into Content and Media, depending on what y
 - The images used for the gallery page were taken from this other open source site
 
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
