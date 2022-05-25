@@ -1,5 +1,18 @@
-## Table of Contents
+# Oaxaca Taco Bar - Project 1 
 
+<img src="wireframe-responsive-screenshot here>
+
+This is the website of Oaxaca Taco Bar, a new mexican restaurant that has just opened up in the heart of Rathmines. The website 
+will serve as an online means for new and returning customers to gain key information about the new restaurant. 
+
+The main aim of this project is to contruct an aesthetic, easily-navigable, responsive and modern website which substantially improves the business potential of the new restaurant. It will be constructed using HTML & CSS. The full list of technologies used can be found further down. 
+
+[Live link to website](htttp.)
+
+<hr>
+
+## Table of Contents
+<!-- TOC start-->
 * [User Experience Design](#User-Experience-Design)
     * [Purpose](#Purpose)
     * [User Stories](#User-Stories)
@@ -28,22 +41,44 @@
     * [Colours](#Colours)
     * [Code](#Code)
     * [Text](#Text)
+<!-- TOC end -->
+<!-- TOC -->
+
+<hr>
 
 
+# UX (User Experience)
+## Purpose 
+
+The main goal for this website is to serve as an online hub of information for potential new customers, to promote the brand 
+and provide all the key information restaurant customers usually search for e.g Menu, Opening hours and to contact them. It also 
+serves as a reminder for returning customers, who can view if the menu has been updated or if they can make a booking. 
 
 
+# User Stories 
+
+## First Time Visitor Goals
++ As a first time user, I can easily find key information I would usually find on a restaurants website. 
++ As a first time user, I can easily get in touch with the restaurant if I have any questions or would like to make a booking. 
+
+## Returning Visitor Goals
++ As a returning user, I can learn more about the business and the owners after my visit.  
++ As a returning user, I can easily find the menu should I want to know what to order before going again. 
++ As a returning user, I can easily find the businesses social media platforms. 
+
+## Frequent Visitor Goals
++ As a frequent user, I want to check if there are any new items on the menu. 
++ As a frequent user, I want to check if the opening hours have changed. 
 
 
+## Wireframes
+The following image shows a wireframe of each of the 4 pages on this website. These wireframes were created using [Balsamiq Wireframes](https://balsamiq.com/).
 
+<img src="
 
+<hr>
 
-
-
-
-
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
-
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+ 
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
