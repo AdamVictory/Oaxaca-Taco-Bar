@@ -1,6 +1,6 @@
 # Oaxaca Taco Bar - Project 1 
 
-<img src="wireframe-responsive-screenshot here>
+<img src="https://github.com/AdamVictory/Oaxaca-Taco-Bar/blob/main/wireframescreenshots/wireframe.png"
 
 This is the website of Oaxaca Taco Bar, a new mexican restaurant that has just opened up in the heart of Rathmines. The website 
 will serve as an online means for new and returning customers to gain key information about the new restaurant. 
