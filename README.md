@@ -7,7 +7,7 @@ will serve as an online means for new and returning customers to gain key inform
 
 The main aim of this project is to contruct an aesthetic, easily-navigable, responsive and modern website which substantially improves the business potential of the new restaurant. It will be constructed using HTML & CSS. The full list of technologies used can be found further down. 
 
-[Live link to website](htttp.)
+[Live link to website](htttp.) https://github.com/AdamVictory/Oaxaca-Taco-Bar
 
 <hr>
 
@@ -27,7 +27,6 @@ The main aim of this project is to contruct an aesthetic, easily-navigable, resp
     * [About us](#Color-Scheme)
     * [Menu](#Menu)
     * [Contact](#Contact)
-    * [404 Error Page](#404-Error-Page)
     * [Features Left To Implement](#Features-Left-To-Implement)
 - [Technologies](#Technologies)
 - [Testing](#Testing)
@@ -79,28 +78,36 @@ The following image shows a wireframe of each of the 4 pages on this website. Th
 <hr>
 
  
+# Features 
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+### Common Elements
+The common elements across all four pages of the website are the Header and Footer sections. 
++ The Header - This section appears at the top of all pages and contacts a gif logo which sits on the left, and a navigation 
+menu which is on the right. The logo and menu will adjust on different sized screens. It is clear to the user which page they are on due to the underline in the navigation menu. 
+<img src="">
 
-## Features 
++ The Footer - This section appears on the very bottom of all pages. It contains four social media icons which can take the user to the necessary social platform. It also contains copyright information. 
+<img src="">
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ### Existing Features
 
-- __Navigation Bar__
+* #### Navigation Bar
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  * Featured on all four pages, the full responsive navigation bar includes links to the Logo, Home, About, Menu and Contact pages. It is identical in each page to allow for easy navigation.
+  * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  * It includes a gif logo which makes the website modern. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Navigation Bar](https:)
 
-- __The landing page image__
+* #### Landing Page Image
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
+  - The landing includes a high quality banner image of the restaurants branding design. It also animates so it catches the users attention instantly.  branphotograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
   - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  + Banner Image - This only appears on the home page to add more brand identity to the website. 
+<img src="">
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](https:)
 
 - __Club Ethos Section__
 
