@@ -317,7 +317,7 @@ input[type=submit]:hover {
 
 /* Footer section */
 footer {
-    height: 150px;
+    height: 100px;
 }
 
 .socials { 
@@ -383,14 +383,21 @@ footer {
 
 #center-about {
     clear: both;
-    width: 100%;
+    width: 60%;
     float: left;
     padding: 0;
 
 }
 
+#call-to-action-panels-holder>div {
+    width: 70%;
+    float: center;
+    margin-bottom: 3 4rem 3 4rem;
+}
+
 #call-to-action-panels-holder {
-    margin: 0 4rem 3rem 4rem;
+    width: 100%;
+    margin: 3 4rem 3rem 4rem;
     text-align: center;
 }
 
@@ -399,6 +406,32 @@ footer {
 
 /* For smartphone screen sizes 600px and below */
 @media screen (max-width:600px) {
+
+
+    #menu-holder { 
+        float:right;
+        margin-right: 2rem;
+        line-height: 300px;
+    }
+
+    header { 
+        background-color: black;
+        padding: 1rem;
+        border-bottom: 10px solid white;
+        height: 300px;
+        Width:70%;
+    }
+
+    .logo { 
+        width: 10px;
+        height: 10px;
+        float: left;
+        }
+        
+        .logo img { 
+            width: 50%;
+        }
+
 
     #menu-holder { 
         margin-right: 0.2rem;
@@ -417,6 +450,18 @@ footer {
         padding: 0 1px 0 1px;
         font-size: 0.75rem;
     }
+
+    #call-to-action-panels-holder>div {
+        width: 70%;
+        float: center;
+        margin-bottom: 3 2rem 3 32rem;
+    }
+    
+    #call-to-action-panels-holder {
+        width: 70%;
+        margin: 3 2em 2 3rem;
+        text-align: center;
+    }
     
 
     /* Hero image section */
@@ -425,25 +470,54 @@ footer {
 
 /* For ultra small screen sizes 400px and below */
 @media screen and (max-width: 400px) {
+
+    header { 
+        padding: 10rem;
+        border-bottom: 10px solid white;
+        height: 200%;
+    }
+
+    .logo { 
+        width: 10px;
+        height: 10px;
+        float: left;
+        }
+        
+        .logo img { 
+            width: 50%;
+        }
+
     
+
     nav li {
         margin: 0 1px 0 1px;
         padding: 0 1px 0 1px;
-        font-size: 0.75rem;
-        text-align: center;
     }
 
 
     #menu-holder {
-        line-height: 5px;
+        line-height: 1px;
         text-align: center;
-        font-size: 2px;
+        font-size: 1px;
     }
 
     #contact {
         font-size: 0.75rem;
 
     }
+}
+
+#call-to-action-panels-holder>div {
+    width: 100%;
+    float: left;
+    margin-bottom: 3rem;
+}
+
+#call-to-action-panels-holder {
+    margin: 0 4rem 3rem 4rem;
+    text-align: center;
+}
+
 }
 
 
