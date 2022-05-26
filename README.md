@@ -2,12 +2,12 @@
 
 <img src=">
 
-This is the website of Oaxaca Taco Bar, a new mexican restaurant that has just opened up in the heart of Rathmines. The website 
+This is the website of Oaxaca Taco Bar, a new Mexican restaurant that has just opened up in the heart of Dublin. The website 
 will serve as an online means for new and returning customers to gain key information about the new restaurant. 
 
 The main aim of this project is to contruct an aesthetic, easily-navigable, responsive and modern website which substantially improves the business potential of the new restaurant. It will be constructed using HTML & CSS. The full list of technologies used can be found further down. 
 
-[Live link to website](htttp.) https://github.com/AdamVictory/Oaxaca-Taco-Bar
+[Live link to website](https://adamvictory.github.io/Oaxaca-Taco-Bar/index.html)
 
 <hr>
 
@@ -122,8 +122,10 @@ This page is used to list all of the food items available on their menu and thei
 This page effectively shows all the different methods the user can get in touch with the restuarant.There are three different sections to the contact page. 
 + General Information -  It also has a contact form and google maps embeded. 
 <img src="https://github.com/AdamVictory/Oaxaca-Taco-Bar/blob/main/wireframescreenshots/contact-us.png">
+
 + Contact Form - Allows the user to submit their details and questions.
 <img src="https://github.com/AdamVictory/Oaxaca-Taco-Bar/blob/main/wireframescreenshots/contact-form.png">
+
 + Visit Us - Allows the user to see where exactly the restaurant is located.
 <img src="https://github.com/AdamVictory/Oaxaca-Taco-Bar/blob/main/wireframescreenshots/map.png">
 
@@ -140,6 +142,31 @@ This is a list of all the technologies used to create this project
 + Canva - Free design tool used to create my gif logo and hero banner image. 
 
 <hr>
+
+# Testing
+
+## Cross-Browser Testing 
+I tested the website across 3 web browsers that are Mozilla Firefox, Google chrome and Safari. The site worked on all of these web broswers. 
+
+
+## Compatibility Testing 
+I tested on many differnet devices such as Apple Macbook pro, Dell laptop, Apple Ipad, Samsung Galaxy. No major issues were found. 
+
+
+## Responsiveness Testing 
+I used Google Chromes developer tools to test thee responsiveness of the website throughout development. I designed the website for different screen sizes such as 800px (medium screen size), 600px (small screen size) annd 400px (ultra small screen size). 
+
+### The Header 
+Once the viewport is below the width of 800px the navigation menu stacks underneath the logo. I had to adjsut the margin and padding to make it look better. 
+
+### The Footer 
+The footer does not contain a lot of text therefore it worked on most screen sizes. It clased with the social icons on 600px and below. 
+
+
+### The Banner 
+The banner image only appears on the homepage. On smaller screen sizes it was too tall and not wide enough.  
+
+
 
 
 

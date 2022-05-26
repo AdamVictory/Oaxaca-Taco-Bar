@@ -21,6 +21,7 @@ body {
 
 h1 { 
     font-size: 3rem;
+    font-weight: 400;
     letter-spacing: 0.2rem;
     text-align: center;
     margin-bottom: 2rem;
@@ -29,6 +30,7 @@ h1 {
 
 h2 { 
     font-size: 2rem;
+    font-weight: 400;
     letter-spacing: 0.1rem;
     text-align: center;
     margin-bottom: 2rem;
@@ -55,13 +57,12 @@ header {
     background-color: black;
     padding: 2rem;
     border-bottom: 5px solid white;
-    height: 120px;
+    height: 140px;
 }
 
-
 .logo { 
-width: 90px;
-height: 90px;
+width: 100px;
+height: 120px;
 float: left;
 }
 
@@ -72,7 +73,7 @@ float: left;
 #menu-holder { 
     float:right;
     margin-right: 2rem;
-    line-height: 50px;
+    line-height: 100px;
 }
 
 nav li { 
@@ -90,10 +91,11 @@ nav li:hover {
 nav a { 
     text-decoration: none;
     color: white;
+    font-size: 30px;
 }
 
 .active { 
-    border-bottom: 7px solid orange;
+    border-bottom: 7px solid #ffa500;
 }
 
 /* Hero image section */
@@ -260,8 +262,6 @@ hr {
 
 }
 
-
-
 /* About us page styles */ 
 #about-us,
 #menu,
@@ -273,7 +273,6 @@ hr {
     overflow: hidden;
 }
 
-
 #page-banner-image {
     margin: 0 4rem 0 4rem;
     /* height: 200px; */
@@ -283,8 +282,6 @@ hr {
 #page-banner-image>img {
     width: 100%;
 }
-
-
 
 
 /* Contact section */
@@ -318,12 +315,9 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: teal;
+    background-color:white;
+    color: black;
 }
-
-
-
-
 
 
 /* Footer section */
@@ -349,19 +343,15 @@ footer {
 
 /* For medium screen sizes from 800px wide and below */
 @media screen and (max-width:800px) {
-    
-header {
-    height: 150px;
-    padding: 1rem;
+    header {
+       height: 150px;
+       padding: 1rem;
 }
 
 #hero-holder
 #hero-image { 
-    height: 400px;
+    height: 300px;
 }
-
-#about
-#hero-image 
 
 #menu-holder {
     margin-right: 2rem;
@@ -372,7 +362,7 @@ header {
 }
 
 #hero-holder { 
-    margin: 0 2rem 0 2rem;
+    margin: 0 1rem 0 1rem;
 
 }
 
@@ -412,28 +402,77 @@ header {
 
 
 
-
-
-
-
-
 /* For smartphone screen sizes 600px and below */
 @media screen (max-width:600px) {
 
-    #hero-holder,
-    #hero-image {
-        height:300px
+    #menu-holder { 
+        float:left;
+        margin-right: 0.1rem;
+        line-height: 100px;
+    }
+    
+    nav li { 
+        list-style-type: none;
+        margin: 0 1px 0 1px;
+        padding: 0 1px 0 1px;
+    }
+    
+    nav li:hover { 
+        background-color: orange;
+        border-bottom: 7px solid orange;
+    }
+    
+    nav a { 
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+    
+    .active { 
+        border-bottom: 7px solid #ffa500;
+    }
+
+    /* Hero image section */
+
+#hero-outer { 
+    height: 200px;
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image { 
+    height: 100px;
+    width: 50%;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+
+}
+
+
+
+
+
+}
+
+ 
+
+/* For ultra small screen sizes 400px and below */
+@media screen and (max-width: 400px) {
+    
+    nav li {
+        margin: 0 2px 0 2px;
+        padding: 0 2px 0 2px;
+        font-size: 0.75rem;
     }
 
 
     #menu-holder {
-        margin-left: 1rem;
-        margin-top: 20px;
-        clear: left;
-        float: left;
-        line-height: 15px;
+        line-height: 20px;
     }
+
+
 }
+
 
 
 
