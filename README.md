@@ -34,7 +34,7 @@ The main aim of this project is to contruct an aesthetic, easily-navigable, resp
     * [User Testing](#user-testing)
     * [Validator Testing](#validator-testing)
     * [Performance Testing](#performance-testing)
-    * [Errors or Bugs](#errors-or-bugs)
+    * [Unfixed Bugs](#unfixed-bugs)
     * [Issues And Resolutions](#issues-And-Resolutions)
 - [Deployment](#deployment)
 - [Credits](#Credits)
@@ -81,7 +81,7 @@ The following image shows a wireframe of each of the 4 pages on this website. Th
  
 # Features 
 
-### Common Elements
+### Common Features
 The common elements across all four pages of the website are the Header and Footer sections. 
 + The Header - This section appears at the top of all pages and consists of a gif logo which sits on the left, and a navigation 
 menu which is on the right. The logo and menu will adjust on different sized screens. It is clear to the user which page they are on due to the underline in the navigation menu. Featured on all four pages, the full responsive navigation bar includes links to the Logo, Home, About, Menu and Contact pages. It is identical on each page to allow for easy navigation. This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. It includes a gif logo which makes the website modern. 
@@ -156,10 +156,11 @@ This is a list of all the technologies used to create this project
 
 ## Cross-Browser Testing 
 I tested the website across 3 web browsers that are Mozilla Firefox, Google chrome and Safari. The site worked on all of these web broswers. 
+I tested the website , it is responsive and functions well on different screen sizes using Google Dev Tools
 
 
 ## Compatibility Testing 
-I tested on many differnet devices such as Apple Macbook pro, Dell laptop, Apple Ipad, Samsung Galaxy. No major issues were found. 
+I tested on many differnet devices such as Apple Macbook pro, Dell laptop, Apple Ipad, Samsung Galaxy. No major issues were found. All of the text is readable, understandable and has good contrast. + The form is easy to use and works. 
 
 
 ## Responsiveness Testing 
@@ -192,36 +193,7 @@ The banner image only appears on the homepage. On smaller screen sizes it was to
 ## User Testing 
 
 
-
-
-
-
-
-
-
-
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
- 
-
-## Testing 
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-+ I tested the website , it is responsive and functions well on different screen sizes using Google Dev Tools
-+ I tried multiple devices and is responsive on tablet and mobile. 
-+ All of the text is readable, understandable and has good contrast. 
-+ The form is easy to use and works. 
-
-
-### Validator Testing 
+## Validator Testing 
 
 + HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
@@ -231,6 +203,8 @@ If this section grows too long, you may want to split it off into a separate fil
 + Accessibility 
  - I confirmed this by running the website through Lighthouse in devtools. 
 
+## Performance Testing 
+
 
 ### Unfixed Bugs
 
@@ -238,6 +212,9 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 + On smaller screens a lot of the images and text overlapped. 
 + Spelling mistakes were found but fixed before deployment. 
+
+### Issues and Resolutions
+
 
 ## Deployment
 
@@ -257,10 +234,13 @@ In this section you need to reference where you got your content, media and extr
 You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
 
-### Images
+### Imagery
 All images were gained from [Pexels](https://www.pexels.com/)
 
-### Fonts
+## Icons 
+[Font Awesome][https://fontawesome.com/] was used for the social media and title icons. 
+
+## Fonts
 I only used one font for this project. I got it front google fonts it's called Koulen. 
 [Koulen Font](https://fonts.google.com/specimen/Koulen#standard-styles)
 
@@ -270,9 +250,6 @@ I only used one font for this project. I got it front google fonts it's called K
 The colour scheme in this project consists of three colours: Black, White and Orange. They complement eachother very well and creare good contrast. 
 I used [Coolers](https://coolors.co/)
 
-## Icons 
-[Font Awesome][https://fontawesome.com/] was used for the social media and title icons. 
-
-## Text Content 
+## Text  
 The Majority of the text content was made by myself. The only thing I took was the menu items from a similar Mexican restuarant called Masa.
 [Menu Text](http://www.masadublin.com/)
