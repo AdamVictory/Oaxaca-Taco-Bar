@@ -391,13 +391,12 @@ footer {
 
 #call-to-action-panels-holder>div {
     width: 70%;
-    float: center;
     margin-bottom: 3 4rem 3 4rem;
 }
 
 #call-to-action-panels-holder {
     width: 100%;
-    margin: 3 4rem 3rem 4rem;
+    margin: 3 4rem 3 4rem;
     text-align: center;
 }
 
