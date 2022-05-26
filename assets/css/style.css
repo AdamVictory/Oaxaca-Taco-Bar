@@ -392,41 +392,33 @@ footer {
 
 #call-to-action-panels-holder {
     margin: 0 4rem 3rem 4rem;
+    text-align: center;
 }
 
 }
-
 
 
 /* For smartphone screen sizes 600px and below */
 @media screen (max-width:600px) {
 
     #menu-holder { 
-        float:left;
-        margin-right: 0.1rem;
-        line-height: 100px;
+        margin-right: 0.2rem;
+  
     }
-    
+
+  
+    #hero-holder, 
+    #hero-image {
+        height: 200px;
+        position: relative;
+    }
     nav li { 
         list-style-type: none;
         margin: 0 1px 0 1px;
         padding: 0 1px 0 1px;
+        font-size: 0.75rem;
     }
     
-    nav li:hover { 
-        background-color: orange;
-        border-bottom: 7px solid orange;
-    }
-    
-    nav a { 
-        text-decoration: none;
-        color: white;
-        font-size: 15px;
-    }
-    
-    .active { 
-        border-bottom: 7px solid #ffa500;
-    }
 
     /* Hero image section */
 
@@ -444,8 +436,25 @@ footer {
 
 }
 
+#contact {
+    font-size: 0.5rem;
+}
+
+#contact-form {
+    width: 150%;
+    height: fit-content;
 
 
+}
+
+#socials {
+    font-size: 0.5rem;
+    padding: 0.5rem;
+}
+
+#video-1 {
+min-height: 1rem;
+}
 
 
 }
@@ -456,17 +465,23 @@ footer {
 @media screen and (max-width: 400px) {
     
     nav li {
-        margin: 0 2px 0 2px;
-        padding: 0 2px 0 2px;
+        margin: 0 1px 0 1px;
+        padding: 0 1px 0 1px;
         font-size: 0.75rem;
+        text-align: center;
     }
 
 
     #menu-holder {
-        line-height: 20px;
+        line-height: 5px;
+        text-align: center;
+        font-size: 2px;
     }
 
+    #contact {
+        font-size: 0.75rem;
 
+    }
 }
 
 

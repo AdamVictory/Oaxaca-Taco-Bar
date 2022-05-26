@@ -1,6 +1,6 @@
 # Oaxaca Taco Bar - Project 1 
 
-<img src=">
+<img src="https://github.com/AdamVictory/Oaxaca-Taco-Bar/blob/main/wireframescreenshots/site-responsive.png">
 
 This is the website of Oaxaca Taco Bar, a new Mexican restaurant that has just opened up in the heart of Dublin. The website 
 will serve as an online means for new and returning customers to gain key information about the new restaurant. 
@@ -13,22 +13,21 @@ The main aim of this project is to contruct an aesthetic, easily-navigable, resp
 
 ## Table of Contents
 <!-- TOC start-->
-* [User Experience Design](#User-Experience-Design)
-    * [Purpose](#Purpose)
-    * [User Stories](#User-Stories)
-    * [First Time Visitor Goals](#First-Time-Visitor-Goals)
-    * [Returning Visitor Goals](#Returning-Time-Visitor-Goals)
-    * [Frequent Visitor Goals](#Frequent-Visitor-Goals)
-    * [Wireframes](#Wireframes)
-- [Features](#Features)
-    * [Existing Features](#Existing-Features)
-    * [Navigation Bar](#Landing-Page-Image)
+* [User Experience](user-experience)
+    * [Purpose](#purpose)
+    * [First Time Visitor Goals](#first-time-visitor-goals)
+    * [Returning Visitor Goals](#returning-Visitor-Goals)
+    * [Frequent Visitor Goals](#frequent-visitor-goals)
+    * [Wireframes](#wireframes)
+- [Features](#features)
+    * [Existing Features](#existing-features)
+    * [Navigation Bar](#anding-Page-Image)
     * [Home Page](#Home-Page)
     * [About us](#Color-Scheme)
     * [Menu](#Menu)
     * [Contact](#Contact)
     * [Features Left To Implement](#Features-Left-To-Implement)
-- [Technologies](#Technologies)
+- [Technologies Used](#Technologies-Used)
 - [Testing](#Testing)
     * [Validator Testing](#Validator-Testing)
     * [Issues And Resolutions](#Issues-And-Resolutions)
@@ -52,9 +51,6 @@ The main aim of this project is to contruct an aesthetic, easily-navigable, resp
 The main goal for this website is to serve as an online hub of information for potential new customers, to promote the brand 
 and provide all the key information restaurant customers usually search for e.g Menu, Opening hours and to contact them. It also 
 serves as a reminder for returning customers, who can view if the menu has been updated or if they can make a booking. 
-
-
-# User Stories 
 
 ## First Time Visitor Goals
 + As a first time user, I can easily find key information I would usually find on a restaurants website. 
@@ -129,6 +125,10 @@ This page effectively shows all the different methods the user can get in touch 
 + Visit Us - Allows the user to see where exactly the restaurant is located.
 <img src="https://github.com/AdamVictory/Oaxaca-Taco-Bar/blob/main/wireframescreenshots/map.png">
 
+## Features Left to Implement
+
++ If I had more time I would have added two buttons. One called Order delivery and Book a Table, first one links to deliveroos website and the other links to resmio.
+
 <hr>
 
 # Technologies Used 
@@ -198,9 +198,7 @@ The banner image only appears on the homepage. On smaller screen sizes it was to
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-### Features Left to Implement
-
-- Another feature idea
+ 
 
 ## Testing 
 
@@ -212,28 +210,39 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
++ I tested the website , it is responsive and functions well on different screen sizes using Google Dev Tools
++ I tried multiple devices and is responsive on tablet and mobile. 
++ All of the text is readable, understandable and has good contrast. 
++ The form is easy to use and works. 
+
 
 ### Validator Testing 
 
-- HTML
++ HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
++ CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
++ Accessibility 
+ - I confirmed this by running the website through Lighthouse in devtools. 
+
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+
++ On smaller screens a lot of the images and text overlapped. 
++ Spelling mistakes were found but fixed before deployment. 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
++ The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://adamvictory.github.io/Oaxaca-Taco-Bar/index.html
 
 
 ## Credits 
@@ -246,15 +255,15 @@ You can break the credits section up into Content and Media, depending on what y
 ### Images
 All images were gained from [Pexels](https://www.pexels.com/)
 
-
-## Fonts
+### Fonts
 I only used one font for this project. I got it front google fonts it's called Koulen. 
 [Koulen Font](https://fonts.google.com/specimen/Koulen#standard-styles)
 
 ## Colours
 
 <img src="https://github.com/AdamVictory/Oaxaca-Taco-Bar/blob/main/wireframescreenshots/colour-scheme.png">
-The colour scheme in this project consists of three colours: Black, White and Orange. They complement eachother very well and creare good contrast. I used Coolers. 
+The colour scheme in this project consists of three colours: Black, White and Orange. They complement eachother very well and creare good contrast. 
+I used [Coolers](https://coolors.co/)
 
 ## Icons 
 [Font Awesome][https://fontawesome.com/] was used for the social media and title icons. 
