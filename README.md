@@ -178,20 +178,24 @@ The banner image only appears on the homepage. On smaller screen sizes it was to
 
 
 ### Homepage - Welcome text, video, call to action panels
+The welcome text on the homepage sits in the center and looks good for all screen sizes. Similarily the video sits nicely in the center of both pages. 
+The call to action panels on a screen size of 800px or less changes to a single column. 
 
 
 ### About Page
-
+This page performed very well as it's a heading, parapragh and a center image so it did not need to be adapted for different screens. 
 
 
 ### Menu Page
+Similiar to the about page, this was mainly HTML and was in the center so it did not need to be changed for smaller screens. I really like this page and how easy it is to read. 
 
 
 ### Contact Page
-
+I had to make the width and height of the google maps box smaller but once I did this it worked for all screens. 
 
 ## User Testing 
-
+The navigation was clearly accessible on all screens but the small iphone. All information was presented clearly with contrasting backgrounds. 
+The simplicity of the website makes it very easy to view and navigate through. 
 
 ## Validator Testing 
 
@@ -208,18 +212,26 @@ The banner image only appears on the homepage. On smaller screen sizes it was to
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
 + On smaller screens a lot of the images and text overlapped. 
 + Spelling mistakes were found but fixed before deployment. 
++ It says there is an issue with my </a> on line 22 but I couldn't find out why. 
 
 ### Issues and Resolutions
+
++ I ran into the issue of not having enough time to make my content look good on the iphone. If I had more time I would have resolved this issue.
++ Apply more buttons to the site, linking users to order on deliveroo or make a booking through resmio. 
++ More features within the footer linking the user to different pages. 
+
 
 
 ## Deployment
 
-
 + The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - Used the Code Institutes Template 
+  - Named my github repository
+  - Installed Gitpod google chrome extension 
+  - Began to push changes to my GitHub repository
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
@@ -227,15 +239,10 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 The live link can be found here - https://adamvictory.github.io/Oaxaca-Taco-Bar/index.html
 
 
-## Credits 
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
+## Credits  
 
 ### Imagery
-All images were gained from [Pexels](https://www.pexels.com/)
+All images and videos were gained from [Pexels](https://www.pexels.com/)
 
 ## Icons 
 [Font Awesome][https://fontawesome.com/] was used for the social media and title icons. 
@@ -249,6 +256,15 @@ I only used one font for this project. I got it front google fonts it's called K
 <img src="https://github.com/AdamVictory/Oaxaca-Taco-Bar/blob/main/wireframescreenshots/colour-scheme.png">
 The colour scheme in this project consists of three colours: Black, White and Orange. They complement eachother very well and creare good contrast. 
 I used [Coolers](https://coolors.co/)
+
+## Code
++ I used this to help me embed google maps into my contact section [Big Commerce](https://support.bigcommerce.com/s/question/0D51B000046LDqwSAG/how-to-center-embedded-google-map-on-webpage?language=en_US)
++ The code for my Hero Image was taken from the Love Running Walkthrough. 
++ The code for the contact form was also taken from the Love Running Walkthrough. 
++ The code for the "Why our tacos?" section was taken from the ethos section in the Love Running Walkthrough. 
++ The code for my social media links was taken from the Love Running Walkthrough. 
++ The animation code for my banner was taken from the Love Running Walkthrough, 
+
 
 ## Text  
 The Majority of the text content was made by myself. The only thing I took was the menu items from a similar Mexican restuarant called Masa.
