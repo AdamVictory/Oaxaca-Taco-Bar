@@ -139,7 +139,11 @@ This is a list of all the technologies used to create this project
 + Font Awesome - Used for icons beside headings and social links. 
 + Git, Github & Gitpod - Used to develop and store my code. 
 + Balsamiq Wireframes - Software to create mockups and prototype designs. 
-+ Canva - Free design tool used to create my gif logo and hero banner image. 
++ Canva - Free design tool used to create my gif logo and hero banner image.
++ Am I responsive - Used to generate the website mockup. 
++ Pexels - Is the website I used to gain all imagery. 
++ Google Maps Generator - Used to embed my google maps url.
++ Coolers - Used to create my colour scheme.  
 
 <hr>
 
@@ -165,6 +169,24 @@ The footer does not contain a lot of text therefore it worked on most screen siz
 
 ### The Banner 
 The banner image only appears on the homepage. On smaller screen sizes it was too tall and not wide enough.  
+
+
+### Homepage - Welcome text, video, call to action panels
+
+
+### About Page
+
+
+
+### Menu Page
+
+
+### Contact Page
+
+
+## User Testing 
+
+
 
 
 
@@ -220,15 +242,23 @@ In this section you need to reference where you got your content, media and extr
 
 You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
-### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+### Images
+All images were gained from [Pexels](https://www.pexels.com/)
 
 
+## Fonts
+I only used one font for this project. I got it front google fonts it's called Koulen. 
+[Koulen Font](https://fonts.google.com/specimen/Koulen#standard-styles)
+
+## Colours
+
+<img src="https://github.com/AdamVictory/Oaxaca-Taco-Bar/blob/main/wireframescreenshots/colour-scheme.png">
+The colour scheme in this project consists of three colours: Black, White and Orange. They complement eachother very well and creare good contrast. I used Coolers. 
+
+## Icons 
+[Font Awesome][https://fontawesome.com/] was used for the social media and title icons. 
+
+## Text Content 
+The Majority of the text content was made by myself. The only thing I took was the menu items from a similar Mexican restuarant called Masa.
+[Menu Text](http://www.masadublin.com/)

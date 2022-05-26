@@ -45,11 +45,7 @@ p {
     color:black;
 }
 
-hr { 
-    border-top: 3px dotted white; 
-    width: 100%;
-    margin: 3 rem 0 3rem 0;
-}
+
 
 /* Header Section */
 
@@ -85,7 +81,7 @@ nav li {
 
 nav li:hover { 
     background-color: orange;
-    border-bottom: 7px solid orange;
+    border-bottom: 7px solid white;
 }
 
 nav a { 
@@ -302,7 +298,7 @@ select,
 textarea {
     width: 100%;
     padding: 1rem;
-    border: 2 px solid white;
+    border: none;
     margin-bottom: 1rem;
 }
 
