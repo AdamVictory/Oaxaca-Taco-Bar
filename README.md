@@ -156,21 +156,21 @@ This is a list of all the technologies used to create this project
 
 ## Cross-Browser Testing 
 I tested the website across 3 web browsers that are Mozilla Firefox, Google chrome and Safari. The site worked on all of these web broswers. 
-I tested the website , it is responsive and functions well on different screen sizes using Google Dev Tools
+I tested the website, it is responsive and functions well o using Google Dev Tools except it is not as a good on the iphone. 
 
 
 ## Compatibility Testing 
-I tested on many differnet devices such as Apple Macbook pro, Dell laptop, Apple Ipad, Samsung Galaxy. No major issues were found. All of the text is readable, understandable and has good contrast. + The form is easy to use and works. 
+I tested on many different devices such as Apple Macbook pro, Dell laptop, Apple Ipad, Samsung Galaxy phone. No major issues were found. All of the text is readable, understandable and has good contrast. The form is easy to use and works. All social links open correctly. 
 
 
 ## Responsiveness Testing 
 I used Google Chromes developer tools to test thee responsiveness of the website throughout development. I designed the website for different screen sizes such as 800px (medium screen size), 600px (small screen size) annd 400px (ultra small screen size). 
 
 ### The Header 
-Once the viewport is below the width of 800px the navigation menu stacks underneath the logo. I had to adjsut the margin and padding to make it look better. 
+Once the viewport is below the width of 800px the navigation menu stacks underneath the logo. I had to adjsut the margin and padding to make it look better. It spans the full width of the page. Once the width of the screen is reduced the navigation menu stacks below the logo. 
 
 ### The Footer 
-The footer does not contain a lot of text therefore it worked on most screen sizes. It clased with the social icons on 600px and below. 
+The footer does not contain a lot of text therefore it worked on all screen sizes. It stayed the same on all screen sizes. 
 
 
 ### The Banner 
