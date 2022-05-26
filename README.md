@@ -5,7 +5,7 @@
 This is the website of Oaxaca Taco Bar, a new Mexican restaurant that has just opened up in the heart of Dublin. The website 
 will serve as an online means for new and returning customers to gain key information about the new restaurant. 
 
-The main aim of this project is to contruct an aesthetic, easily-navigable, responsive and modern website which substantially improves the business potential of the new restaurant. It will be constructed using HTML & CSS. The full list of technologies used can be found further down. 
+The main aim of this project is to contruct an aesthetic, easily to use, responsive and modern website which substantially improves the business potential of the new restaurant. It will be constructed using HTML & CSS. The full list of technologies used can be found further down. 
 
 [Live link to website](https://adamvictory.github.io/Oaxaca-Taco-Bar/index.html)
 
@@ -132,7 +132,7 @@ This page effectively shows all the different methods the user can get in touch 
 
 ## Features Left to Implement
 
-+ If I had more time I would have added two buttons. One called Order delivery and Book a Table, first one links to deliveroos website and the other links to resmio.
++ If I had more time I would have added two buttons. One called "Order Delivery" and "Book a Table", first one links to deliveroos website and the other links to resmio.
 
 <hr>
 

@@ -143,7 +143,6 @@ nav a {
     color: black;
 }
 
-/* Call To Action panels section */
 
 #video {
     display: block;
@@ -186,7 +185,7 @@ nav a {
     background-color: white;
 }
 
-/* best tacos */
+/* best tacos section */
 
 #best-tacos{
     height: 600px;
@@ -421,43 +420,6 @@ footer {
     
 
     /* Hero image section */
-
-#hero-outer { 
-    height: 200px;
-    width: 80%;
-    overflow: hidden;
-    position: relative;
-}
-
-#hero-image { 
-    height: 100px;
-    width: 50%;
-    background: url('../images/hero-image.jpg') no-repeat center center;
-
-}
-
-#contact {
-    font-size: 0.5rem;
-}
-
-#contact-form {
-    width: 150%;
-    height: fit-content;
-
-
-}
-
-#socials {
-    font-size: 0.5rem;
-    padding: 0.5rem;
-}
-
-#video-1 {
-min-height: 1rem;
-}
-
-
-}
 
  
 
