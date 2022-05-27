@@ -146,7 +146,7 @@ This is a list of all the technologies used to create this project
 + Balsamiq Wireframes - Software to create mockups and prototype designs. 
 + Canva - Free design tool used to create my gif logo and hero banner image.
 + Am I responsive - Used to generate the website mockup. 
-+ Pexels - Is the website I used to gain all imagery. 
++ Pexels - Is the website I used to gain all imagery and videos. 
 + Google Maps Generator - Used to embed my google maps url.
 + Coolers - Used to create my colour scheme.  
 
@@ -167,7 +167,8 @@ I tested on many different devices such as Apple Macbook pro, Dell laptop, Apple
 I used Google Chromes developer tools to test thee responsiveness of the website throughout development. I designed the website for different screen sizes such as 800px (medium screen size), 600px (small screen size) annd 400px (ultra small screen size). 
 
 ### The Header 
-Once the viewport is below the width of 800px the navigation menu stacks underneath the logo. I had to adjsut the margin and padding to make it look better. It spans the full width of the page. Once the width of the screen is reduced the navigation menu stacks below the logo. 
+Once the viewport is below the width of 800px the navigation menu stacks underneath the logo. I had to adjsut the margin and padding to make it look better. It spans the full width of the page. Once the width of the screen is reduced the navigation menu stacks below the logo.
+ <img src="https://github.com/AdamVictory/Oaxaca-Taco-Bar/blob/main/wireframescreenshots/smaller-header.png">
 
 ### The Footer 
 The footer does not contain a lot of text therefore it worked on all screen sizes. It stayed the same on all screen sizes. 
@@ -180,6 +181,7 @@ The banner image only appears on the homepage. On smaller screen sizes it was to
 ### Homepage - Welcome text, video, call to action panels
 The welcome text on the homepage sits in the center and looks good for all screen sizes. Similarily the video sits nicely in the center of both pages. 
 The call to action panels on a screen size of 800px or less changes to a single column. 
+
 
 
 ### About Page
@@ -200,18 +202,17 @@ The simplicity of the website makes it very easy to view and navigate through.
 ## Validator Testing 
 
 + HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - One erroe was found in the, I do not think it is an error though,. [W3C validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fadamvictory.github.io%2FOaxaca-Taco-Bar%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 + CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - A few errors were found here but I don't think it has an effect on the overall CSS [(Jigsaw) validator] (https://validator.w3.org/nu/?doc=https%3A%2F%2Fadamvictory.github.io%2FOaxaca-Taco-Bar%2Findex.html)
 
-+ Accessibility 
- - I confirmed this by running the website through Lighthouse in devtools. 
 
 ## Performance Testing 
-
+I tested the website using Lighthouse through Google Chrome Developer Tools. I am satisifies with all of the results expect for the homepage. The iphones performance dragged this down. 
+<img src="https://github.com/AdamVictory/Oaxaca-Taco-Bar/blob/main/wireframescreenshots/performance-home.png">
+<img src="https://github.com/AdamVictory/Oaxaca-Taco-Bar/blob/main/wireframescreenshots/performance-menu.png">
 
 ### Unfixed Bugs
-
 
 + On smaller screens a lot of the images and text overlapped. 
 + Spelling mistakes were found but fixed before deployment. 
@@ -222,6 +223,7 @@ The simplicity of the website makes it very easy to view and navigate through.
 + I ran into the issue of not having enough time to make my content look good on the iphone. If I had more time I would have resolved this issue.
 + Apply more buttons to the site, linking users to order on deliveroo or make a booking through resmio. 
 + More features within the footer linking the user to different pages. 
++ I couldn't resize the video to fit for ultra small screen. 
 
 
 
