@@ -415,10 +415,11 @@ footer {
 
     header { 
         background-color: black;
-        padding: 1rem;
+        padding: 0.5rem;
         border-bottom: 10px solid white;
         height: 300px;
         Width:70%;
+        font-size: 5px;
     }
 
     .logo { 
@@ -437,10 +438,9 @@ footer {
   
     }
 
-  
     #hero-holder, 
     #hero-image {
-        height: 200px;
+        height: 150px;
         position: relative;
     }
     nav li { 
@@ -461,6 +461,13 @@ footer {
         margin: 3 2em 2 3rem;
         text-align: center;
     }
+
+    #container {
+        width: 50%;
+        height: 200px;
+        overflow: hidden;
+      }
+
     
 }
 
@@ -502,12 +509,14 @@ footer {
         height: 10%;
         width: 103%;
         position:relative;
+        border-width: 5px;
+        padding: 10px;
     }
     nav li { 
         list-style-type: none;
         margin: 0 1px 0 1px;
         padding: 0 1px 0 1px;
-        font-size: 0.75rem;
+        font-size: 0.2rem;
     }
 
     #call-to-action-panels-holder>div {
