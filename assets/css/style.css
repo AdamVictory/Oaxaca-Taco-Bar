@@ -462,11 +462,6 @@ footer {
         text-align: center;
     }
 
-    #container {
-        width: 50%;
-        height: 200px;
-        overflow: hidden;
-      }
 
     
 }
@@ -527,7 +522,7 @@ footer {
     
     #call-to-action-panels-holder {
         width: 70%;
-        margin: 3 2em 2 3rem;
+        margin: 3 2rem 2 3rem;
         text-align: center;
     }
 
