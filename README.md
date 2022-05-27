@@ -202,7 +202,7 @@ The simplicity of the website makes it very easy to view and navigate through.
 ## Validator Testing 
 
 + HTML
-  - One erroe was found in the, I do not think it is an error though,. [W3C validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fadamvictory.github.io%2FOaxaca-Taco-Bar%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - One error was found, I do not think it is an error though. [W3C validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fadamvictory.github.io%2FOaxaca-Taco-Bar%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 + CSS
   - A few errors were found here but I don't think it has an effect on the overall CSS [(Jigsaw) validator] (https://validator.w3.org/nu/?doc=https%3A%2F%2Fadamvictory.github.io%2FOaxaca-Taco-Bar%2Findex.html)
 
