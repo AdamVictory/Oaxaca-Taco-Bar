@@ -13,13 +13,16 @@ html {
 
 body {
     font-family: Koulen;
-    font-weight: 200;
+    font-size: 1rem ;
+    font-weight: 400;
+    text-align: center;
     color: black;
     background-color: orange;
 }
 
 h1 { 
-    font-size: 2rem;
+    font-size: 3rem;
+    font-weight: 400;
     letter-spacing: 0.2rem;
     text-align: center;
     margin-bottom: 2rem;
