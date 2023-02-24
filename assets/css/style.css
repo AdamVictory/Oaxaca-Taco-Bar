@@ -27,7 +27,8 @@ h1 {
 }
 
 h2 { 
-    font-size: 1.6rem;
+    font-size: 2rem;
+    font-weight: 400;
     letter-spacing: 0.1rem;
     text-align: center;
     margin-bottom: 2rem;
@@ -54,19 +55,19 @@ header {
 }
 
 .logo { 
-width: 60px;
-height: 60px;
+width: 100px;
+height: 120px;
 float: left;
 }
 
 .logo img { 
-    width: 100%;
+    width: 150%;
 }
 
 #menu-holder { 
     float:right;
-    margin-right: 3rem;
-    line-height: 70px;
+    margin-right: 2rem;
+    line-height: 50px;
 }
 
 nav li { 
@@ -78,20 +79,22 @@ nav li {
 
 nav li:hover { 
     background-color: orange;
-    border-bottom: 5px solid white;
+    border-bottom: 7px solid white;
 }
 
 nav a { 
     text-decoration: none;
     color: white;
+    font-size: 30px;
 }
 
 .active { 
-    border-bottom: 5px solid #ffa500;
+    border-bottom: 7px solid #ffa500;
 }
 
 /* Hero image section */
-#hero-holder { 
+
+#hero-outer { 
     height: 500px;
     width: 100%;
     overflow: hidden;
