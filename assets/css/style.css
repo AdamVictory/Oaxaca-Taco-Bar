@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 
-* { 
+* {
     margin: 0;
     padding: 0;
     border: none;
@@ -12,99 +12,104 @@ html {
 }
 
 body {
-    font-family: Koulen;
-    font-size: 1rem ;
-    font-weight: 400;
-    text-align: center;
-    color: black;
-    background-color: orange;
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
 }
 
-h1 { 
-    font-size: 3rem;
-    font-weight: 400;
+h1 {
+    font-size: 2.2rem;
     letter-spacing: 0.2rem;
     text-align: center;
     margin-bottom: 2rem;
-    color:black;
+    color: #008873;
 }
 
-h2 { 
-    font-size: 2rem;
-    font-weight: 400;
+h2 {
+    font-size: 1.6rem;
     letter-spacing: 0.1rem;
     text-align: center;
     margin-bottom: 2rem;
-    color:white;
+    color: #75003A;
 }
 
-p { 
-    font-size: 1.4rem;
-    letter-spacing: 0.1rem;
-    text-align: center;
-    margin-bottom: 2rem;
-    color:black;
+hr {
+    border-top: 2px dotted #75003A;
+    width: 100%;
+    margin: 3rem 0 3rem 0;
 }
 
+/* Header section */
 
-
-/* Header Section */
-
-header { 
-    background-color: black;
+header {
+    background-image: linear-gradient(to left, #75003A, #FF007F);
+    /* fallback color if gradient does not show up */
+    background-color: #FF007F;
     padding: 2rem;
-    border-bottom: 5px solid white;
-    height: 140px;
+    /* border-bottom: 5px solid #FF8AC4; */
+    border-bottom: 5px solid #008873;
+    height: 124px;
 }
 
-.logo { 
-width: 100px;
-height: 120px;
-float: left;
+.logoHolder {
+    margin-left: 3rem;
+    float: left;
 }
 
-.logo img { 
-    width: 150%;
+.logo {
+    width: 60px;
+    height: 60px;
+    float: left;
 }
 
-#menu-holder { 
-    float:right;
-    margin-right: 2rem;
-    line-height: 50px;
+.logoText {
+    font-size: 2rem;
+    float: left;
+    color: white;
+    line-height: 60px;
+    margin-left: 1rem;
 }
 
-nav li { 
+.logo img {
+    width: 100%;
+}
+
+#menu-holder {
+    float: right;
+    margin-right: 3rem;
+    line-height: 60px;
+}
+
+nav li {
     display: inline-block;
     list-style-type: none;
     margin: 0 10px 0 10px;
     padding: 0 10px 0 10px;
 }
 
-nav li:hover { 
-    background-color: orange;
-    border-bottom: 7px solid white;
+nav li:hover {
+    background-color: #FF007F;
+    border-bottom: 5px solid #008873;
 }
 
-nav a { 
+nav a {
     text-decoration: none;
     color: white;
-    font-size: 30px;
 }
 
-.active { 
-    border-bottom: 7px solid #ffa500;
+.active {
+    border-bottom: 5px solid #008873;
 }
 
 /* Hero image section */
-
-#hero-outer { 
+#hero-holder {
     height: 500px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-#hero-image { 
+#hero-image {
     height: 500px;
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
@@ -121,170 +126,195 @@ nav a {
         transform: scale(1);
     }
 
-    to { 
+    to {
         transform: scale(1.1);
     }
 }
 
+.hero-h1 {
+    color: white;
+    margin-bottom: 0;
+}
 
-#intro-text { 
+#hero-overlay-text-box {
+    color: white;
+    letter-spacing: 5px;
+    padding: 4rem;
+    position: absolute;
+    top: 33%;
+    background-color: rgba(0, 136, 115, 0.7);
+}
+
+#intro-text {
     margin: 4rem;
 }
 
-#intro-text p { 
-    line-height: 1.8rem ;
-    text-align: center;
+#intro-text p {
+    line-height: 1.8rem;
+    text-align: justify;
 }
 
-#intro-text a { 
-    color:white;
+#intro-text a {
+    color: #FF007F;
 }
 
-#intro-text a:hover { 
-    color: black;
-}
-
-
-#video {
-    display: block;
-    margin: auto;
+#intro-text a:hover {
+    color: #008873;
 }
 
 /* Call To Action panels section */
 
-#call-to-action-panels-holder { 
+#call-to-action-panels-holder {
     margin: 0 4rem 8rem 4rem;
     overflow: hidden;
 }
 
-#call-to-action-panels-holder>div { 
-    width: 30%;
+#call-to-action-panels-holder>div {
+    width: 31%;
     margin: 1%;
     float: left;
-    box-shadow: 0 2px 2px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
 }
 
 .top-image img {
     width: 100%;
-    /* height: fit-content;*/
+    /* height: fit-content; */
 }
 
-.link-panel a { 
-    background-color: black;
+.link-panel a {
+    background-color: #75003A;
     text-transform: uppercase;
-    border: solid 1px;
-    color: orange;
-    padding: 1rem 1.5rem;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 1rem;
-    width: 90%;
+    width: 100%;
 }
 
 .link-panel a:hover {
-    background-color: white;
+    background-color: #FF007F;
 }
 
-/* best tacos section */
-
-#best-tacos{
-    height: 600px;
-}
-
-#left-about {
-    padding-top: 30px;
-    width: 33%;
-    float:left;
-}
-
-#right-about {
-    padding-top: 30px;
-    width: 33%;
-    float:right;
-}
-
-#center-about {
-    width: 33%;
-    margin: 0 auto;
-}
-
-hr {
-    border-top: 1px solid black ;
-    width: 100%;
-    margin: 5px 0;
-}
-
-.left-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear:both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading {
-    width: 60%;
-    float: left;
-    line-height: 20px;
-    clear:both;
-    margin-bottom: 50px;
-}
-.right-about-heading h2 {
-    text-align: right;
-}
-
-.right-about-heading p {
-    text-align:right;
-}
-
-#circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-
-}
-
-#circle-cover-bg {
-    background: url('../images/300pixellogo.png') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-
-
-}
-
-/* About us page styles */ 
+/* ABOUT US page styles */
 #about-us,
 #menu,
-#contact { 
-    margin: 4rem
+#contact {
+    margin: 4rem;
 }
 
 .about-us-row {
     overflow: hidden;
 }
 
+.para-1 {
+    padding: 0 2rem 1rem 0;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+.para-2 {
+    padding: 0 0 0 2rem;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+.about-us-box img {
+    border: 5px solid #00705D;
+}
+
 #page-banner-image {
     margin: 0 4rem 0 4rem;
     /* height: 200px; */
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #75003A;
 }
 
 #page-banner-image>img {
     width: 100%;
 }
 
+#about-us-caption,
+#menu-caption {
+    padding: 3rem;
+    text-align: center;
+    font-size: larger;
+    font-style: italic;
+}
 
-/* Contact section */
+#about-us-panel-holder {
+    margin: 0 4rem 0 4rem;
+    overflow: hidden;
+}
+
+.about-us-box {
+    float: left;
+    width: 50%;
+}
+
+.about-us-box img {
+    width: 100%;
+}
+
+/* Menu page section */
+#menu h3,
+#menu p {
+    text-align: center;
+    line-height: 2rem;
+}
+
+#menu h3 {
+    margin-top: 1rem;
+}
+
+#top-button {
+    background-color: #75003A;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+#top-button span {
+    display: inline;
+}
+
+#top-button:hover {
+    background-color: #FF007F;
+}
+
+
+/* Contact Us section */
 #contact-details {
     padding-bottom: 4rem;
     line-height: 2rem;
     text-align: center;
+}
+
+#social-icons {
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+#social-icons li {
+    display: inline-block;
+}
+
+#social-icons i {
+    font-size: 3rem;
+    color: #00705D;
+    padding: 1rem;
+}
+
+#social-icons i:hover {
+    color: #75003A;
 }
 
 #contact-form {
@@ -292,18 +322,26 @@ hr {
     margin: 0 auto;
 }
 
-input[type=text], 
+input[type=text],
 input[type=email],
 select,
 textarea {
     width: 100%;
     padding: 1rem;
-    border: none;
+    border: 2px solid #FF8AC4;
     margin-bottom: 1rem;
 }
 
 input[type=submit] {
-    background-color: black;
+    background-color: #75003A;
+    color: white;
+    padding: 1rem 1.4rem;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    background-color: #008873;
     color: white;
     padding: 1rem 1.4rem;
     border: none;
@@ -311,160 +349,210 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color:white;
-    color: black;
+    background-color: #FF007F;
 }
 
+input[type=reset]:hover {
+    background-color: #00705D;
+}
+
+#submitted-link {
+    color: #FF007F;
+}
+
+#submitted-link:hover {
+    color: #008873;
+}
 
 /* Footer section */
 footer {
-    height: 100px;
-}
-
-.socials { 
+    padding: 4rem;
     text-align: center;
-}
-
-.socials > li {
-    display: inline;
-}
-
-.socials i { 
-    font-size: 300%;
-    padding: 1%;
     color: white;
+    background-color: #008873;
+    background-image: linear-gradient(to left, #008873, #00705D);
+    /* fallback color if gradient does not show up */
+    background-color: #008873;
 }
 
 /* MEDIA QUERIES SECTION */
 
 /* For medium screen sizes from 800px wide and below */
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
     header {
-       height: 150px;
-       padding: 1rem;
-}
-
-#hero-holder
-#hero-image { 
-    height: 300px;
-}
-
-#menu-holder {
-    margin-right: 2rem;
-    margin-top: 10px;
-    clear: right;
-    float: right;
-    line-height: 30px;
-}
-
-#hero-holder { 
-    margin: 0 1rem 0 1rem;
-
-}
-
-#best-tacos {
-    width: 65%;
-    height: 1200px;
-    margin: 0 auto;
-
-
-}
-
-#welcome { 
-    padding: 30px 0;
-    margin: 0;
-    text-align: center;
-}
-
-#left-about, #right-about {
-    width: 100%;
-    float: left;
-    padding: 0;
-}
-
-#center-about {
-    clear: both;
-    width: 60%;
-    float: left;
-    padding: 0;
-
-}
-
-#call-to-action-panels-holder>div {
-    width: 70%;
-    margin-bottom: 3 4rem 3 4rem;
-}
-
-#call-to-action-panels-holder {
-    width: 100%;
-    margin: 3 4rem 3 4rem;
-    text-align: center;
-}
-
-}
-
-
-/* For smartphone screen sizes 600px and below */
-@media screen (max-width:600px) {
-
-
-    #menu-holder { 
-        float:right;
-        margin-right: 2rem;
-        line-height: 300px;
+        height: 148px;
+        padding: 1rem;
     }
 
-    header { 
-        background-color: black;
-        padding: 0.5rem;
-        border-bottom: 10px solid white;
-        height: 300px;
-        Width:70%;
-        font-size: 5px;
-    }
-
-    .logo { 
-        width: 10px;
-        height: 10px;
-        float: left;
-        }
-        
-        .logo img { 
-            width: 50%;
-        }
-
-
-    #menu-holder { 
-        margin-right: 0.2rem;
-  
-    }
-
-    #hero-holder, 
+    #hero-holder,
     #hero-image {
-        height: 150px;
-        position: relative;
+        height: 400px;
     }
-    nav li { 
-        list-style-type: none;
-        margin: 0 1px 0 1px;
-        padding: 0 1px 0 1px;
-        font-size: 0.75rem;
+
+    #hero-overlay-text-box {
+        padding: 2rem;
+    }
+
+    #menu-holder {
+        margin-left: 2rem;
+        margin-top: 10px;
+        clear: left;
+        float: left;
+        line-height: 30px;
+    }
+
+    #top-button {
+        padding: 0.7rem 1.5rem;
+        font-size: 0.8rem;
+    }
+
+    nav li:hover {
+        background-color: #FF8AC4;
+    }
+
+    #about-us,
+    #menu,
+    #contact {
+        margin: 3rem;
+    }
+
+    #page-banner-image {
+        margin: 0 3rem 0 3rem;
+    }
+
+    #page-banner-image>img {
+        min-height: 10rem;
+        object-fit: cover;
     }
 
     #call-to-action-panels-holder>div {
-        width: 70%;
-        float: center;
-        margin-bottom: 3 2rem 3 32rem;
+        width: 100%;
+        float: left;
+        margin-bottom: 2rem;
     }
-    
+
+    .about-us-box {
+        float: left;
+        width: 100%;
+    }
+
+    .about-us-box>h2 {
+        padding-top: 2rem;
+    }
+
+    .para-1,
+    .para-2 {
+        padding: 0;
+    }
+
+    .para-1 {
+        margin-bottom: 2rem;
+    }
+
     #call-to-action-panels-holder {
-        width: 70%;
-        margin: 3 2em 2 3rem;
-        text-align: center;
+        margin: 0 4rem 3rem 4rem;
     }
 
+    #contact-form {
+        width: 66%;
+    }
+}
+
+/* For smartphone screen sizes 600px and below */
+@media screen and (max-width: 600px) {
+
+    #hero-holder,
+    #hero-image {
+        height: 300px;
+    }
+
+    .hero-h1 {
+        font-size: 1.6rem;
+    }
+
+    #hero-overlay-text-box {
+        padding: 2rem;
+        position: absolute;
+        /* left: 15%; */
+        top: 33%;
+    }
+
+    #menu-holder {
+        margin-right: 1rem;
+    }
 
     
+    #top-button span {
+        display: none;
+    }
+
+    #page-banner-image {
+        margin: 0 1.6rem 0 1.6rem;
+    }
+
+    #about-us-caption,
+    #menu-caption {
+        padding: 1.6rem;
+    }
+
+    #about-us-panel-holder {
+        margin: 0 1.6rem 0 1.6rem;
+    }
+
+    .about-us-box>h2 {
+        padding-top: 2rem;
+    }
+
+    #intro-text {
+        margin: 2rem;
+    }
+
+    #call-to-action-panels-holder {
+        margin: 2rem;
+    }
+
+    #about-us,
+    #menu,
+    #contact {
+        margin: 1.6rem;
+    }
+
+    #menu {
+        margin-bottom: 2.5rem;
+    }
+
+    nav li {
+        margin: 0 5px 0 5px;
+        padding: 0 5px 0 5px;
+        font-size: 14px;
+    }
+
+    #page-banner-image>img {
+        min-height: 7rem;
+        object-fit: cover;
+    }
+
+    .para-2 {
+        margin-bottom: 2rem;
+    }
+
+    #social-icons {
+        padding-bottom: 2rem;
+    }
+
+    #social-icons i {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+
+    #contact-form {
+        width: 80%;
+    }
+
+    footer {
+        padding: 2rem;
+        font-size: smaller;
+    }
 }
 
 /* For ultra small screen sizes 400px and below, fix for navigation menu */
