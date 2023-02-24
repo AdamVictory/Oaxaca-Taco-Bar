@@ -4,10 +4,11 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 html {
-    scroll-behavior:smooth
+    scroll-behavior:smooth;
 }
 
 body {
@@ -466,69 +467,19 @@ footer {
     
 }
 
- 
-
-/* For ultra small screen sizes 400px and below */
+/* For ultra small screen sizes 400px and below, fix for navigation menu */
 @media screen and (max-width: 400px) {
+    nav li {
+        margin: 0 2px 0 2px;
+        padding: 0 2px 0 2px;
+        font-size: 0.75rem;
+    }
 
-    #menu-holder { 
-        float:right;
-        margin-right: 2rem;
+    #menu-holder {
         line-height: 20px;
     }
 
-    header { 
-        background-color: black;
-        padding: 2rem;
-        border-bottom: 10px solid white;
-        height: 200px;
-        Width:100%;
+    input[type=submit] {
+        margin-bottom: 0.5rem;
     }
-
-    .logo { 
-        width: 100px;
-        height: 100px;
-        float: left;
-        }
-        
-        .logo img { 
-            width: 100%;
-        }
-
-    #menu-holder { 
-        margin-right: 0.2rem;
-    }
-
-    #hero-holder, 
-    #hero-image {
-        height: 10%;
-        width: 103%;
-        position:relative;
-        border-width: 5px;
-        padding: 10px;
-    }
-    nav li { 
-        list-style-type: none;
-        margin: 0 1px 0 1px;
-        padding: 0 1px 0 1px;
-        font-size: 0.2rem;
-    }
-
-    #call-to-action-panels-holder>div {
-        width: 70%;
-        float: center;
-        margin-bottom: 3 2rem 3 3rem;
-    }
-    
-    #call-to-action-panels-holder {
-        width: 70%;
-        margin: 3 2rem 2 3rem;
-        text-align: center;
-    }
-
 }
-
-
-
-
-
